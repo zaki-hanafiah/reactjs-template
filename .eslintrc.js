@@ -1,6 +1,7 @@
 module.exports = {
     extends: [
-        'airbnb-typescript',
+        'airbnb-base',
+        'airbnb-typescript/base',
         'plugin:@typescript-eslint/recommended',
         'plugin:jest/recommended',
         'plugin:prettier/recommended',
@@ -48,5 +49,26 @@ module.exports = {
                 endOfLine: 'auto',
             },
         ],
+        'import/extensions': [
+            'error',
+            'ignorePackages',
+            {
+                js: 'never',
+                jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
+            },
+        ],
+    },
+    settings: {
+        'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx'],
+        'import/parsers': {
+            '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.ts', '.tsx'],
+            },
+        },
     },
 }

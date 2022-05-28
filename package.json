@@ -59,8 +59,11 @@
     "devDependencies": {
         "@craco/craco": "^6.4.3",
         "@types/antd": "^1.0.0",
+        "@typescript-eslint/eslint-plugin": "^5.26.0",
+        "eslint-config-airbnb": "^19.0.4",
         "eslint-config-airbnb-typescript": "^17.0.0",
         "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-prettier": "^4.0.0",
         "husky": "^4.3.8",
         "lint-staged": "^12.4.2",
