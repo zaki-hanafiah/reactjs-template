@@ -1,12 +1,8 @@
-# Form-Renderer
+# ReactJS template
 
--   This project is based on React v17 and compiled with TypeScript.
--   Configuration overrides is handled by craco.
--   UI system used is antd.
-
-### Purpose of Project
-
--   A form renderer view that dynamically renders form components based on a set configs sent by API.
+-   This baseline template uses **React** v18 and compiled with **TypeScript**.
+-   Configuration overrides is handled by **craco**.
+-   UI design system used is **Ant Design**.
 
 ### Glossary:
 
