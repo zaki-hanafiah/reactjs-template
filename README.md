@@ -29,7 +29,3 @@ You will need to perform the following on your development machine:
 
 -   The project is configured with eslint and prettier rules based on the recommendations set in [Style-guide](src/README.md), these rules are checked as part of the pre-commit hook.
 -   See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-## Preview Link
-
--   Pending
